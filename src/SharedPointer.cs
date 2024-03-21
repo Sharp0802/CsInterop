@@ -6,6 +6,7 @@ namespace CsInterop;
 /// <summary>
 /// Interop class for <c>std::shared_ptr&lt;T&gt;</c>
 /// </summary>
+/// <typeparam name="T">An element type</typeparam>
 [Serializable]
 [StructLayout(LayoutKind.Sequential)]
 public struct SharedPointer<T> : IDisposable where T : unmanaged, IDisposable
