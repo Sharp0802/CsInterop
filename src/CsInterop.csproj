@@ -10,7 +10,7 @@
 
     <PropertyGroup>
         <PackageId>CsInterop</PackageId>
-        <Version>0.0.3</Version>
+        <Version>0.0.4</Version>
         <Authors>Sharp0802</Authors>
         <PackageTags>pinvoke;interop</PackageTags>
         <RepositoryUrl>https://github.com/Sharp0802/CsInterop</RepositoryUrl>
