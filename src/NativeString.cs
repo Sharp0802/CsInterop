@@ -9,7 +9,7 @@ namespace CsInterop;
 /// </summary>
 [Serializable]
 [StructLayout(LayoutKind.Sequential)]
-internal struct NativeString : IDisposable
+public struct NativeString : IDisposable
 {
     [Serializable]
     [StructLayout(LayoutKind.Sequential)]
